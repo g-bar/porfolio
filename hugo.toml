@@ -19,7 +19,6 @@ rssLimit = 10
 
   [params.author]
     name = 'Gil Barrios'
-    about = 'Designer and front-end developer focused on clean interfaces, smart interaction, and meaningful storytelling.'
 
   [[params.socialLinks]]
     name = 'github'

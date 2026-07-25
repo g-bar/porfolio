@@ -6,9 +6,15 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/elementary-robotics/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/open-brain-platform/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/subcellular-simulation/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
