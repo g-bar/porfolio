@@ -5,7 +5,6 @@ title = 'Gil Barrios'
 theme = 'hermit-v2'
 enableEmoji = true
 rssLimit = 10
-copyright = 'Gil Barrios'
 
 [params]
   description = 'Designer & front-end developer building calm, intentional digital experiences.'
@@ -24,11 +23,11 @@ copyright = 'Gil Barrios'
 
   [[params.socialLinks]]
     name = 'github'
-    url = 'https://github.com/'
+    url = 'https://github.com/g-bar/'
 
   [[params.socialLinks]]
     name = 'email'
-    url = 'mailto:hello@gilbarrios.com'
+    url = 'mailto:gbarv2@gmail.com'
 
 [taxonomies]
   tag = 'tags'
