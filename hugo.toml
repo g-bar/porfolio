@@ -39,6 +39,11 @@ rssLimit = 10
 [taxonomies]
   tag = 'tags'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[menu.main]]
   name = 'Technical & Architectural Excellence'
   url = 'technical-excellence/'
