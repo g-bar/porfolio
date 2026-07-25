@@ -3,28 +3,12 @@ title: "About"
 description: "About {{ .Site.Params.author.name }}"
 ---
 
-Highly impactful and pragmatic software engineer focused on delivering definitive results. Maximizes value and system performance through architectural minimalism and the highest code standards. Avoids premature abstraction and fleeting trends in favor of robust, battle-tested solutions that drive execution.
+Highly impactful and pragmatic software engineer experienced across the stack, primarily with Python/Django, TypeScript/React, and PostgreSQL. I prioritise delivering value by minimising complexity, avoiding premature optimisation and abstraction, and maintaining system performance and reliability. I emphasise proven, battle-tested solutions over following fleeting trends.
 
----
+**Key Strengths:**
 
-## Core Competencies
-
-**Execution & Standards**
-
-Delivers measurable outcomes by minimizing complexity, optimizing performance, and enforcing strict engineering standards.
-
-**Primary Stack**
-
-Python/Django, TypeScript/React, and PostgreSQL, with broad exposure to alternative backend and frontend frameworks.
-
-**Performance Foundation**
-
-Deep knowledge of C programming, algorithms, and data structures to ensure optimal computational efficiency.
-
-**Infrastructure & Tooling**
-
-Docker, Kubernetes, OpenShift, Git, Redis, MongoDB, and GraphQL.
-
-**Machine Learning & Data**
-
-Quantitative analysis and deep learning implementation (CNNs, RNNs) using NumPy, SciPy, Pandas, TensorFlow, PyTorch, and Keras.
+- Main expertise in Python/Django, TypeScript/React, and PostgreSQL.
+- Experience with various other backend and frontend frameworks.
+- Hands-on with GraphQL, Redis, MongoDB, Docker, Git, Kubernetes, and OpenShift.
+- Solid foundation in C programming, algorithms, and data structures.
+- Knowledgeable in deep learning models (CNNs, RNNs) and data analysis using NumPy, SciPy, Keras, PyTorch, TensorFlow, and Pandas.

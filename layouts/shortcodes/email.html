@@ -1,0 +1,5 @@
+{{- range .Site.Params.socialLinks -}}
+  {{- if eq .name "email" -}}
+<a href="{{ .url }}">{{ .url | strings.TrimPrefix "mailto:" }}</a>
+  {{- end -}}
+{{- end -}}
