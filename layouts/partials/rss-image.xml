@@ -1,0 +1,16 @@
+{{- with $path := .path -}}
+  {{- $isLocal  := not (or (strings.HasPrefix $path "http://") (strings.HasPrefix $path "https://") (strings.HasPrefix $path "/")) -}}
+  {{- $isRooted := and (not $isLocal) (strings.HasPrefix $path "/") -}}
+
+  {{- if $isLocal -}}
+    {{- with resources.Get $path -}}
+<enclosure url="{{ .RelPermalink | absURL }}" length="" type="{{ .MediaType }}" />
+    {{- end -}}
+  {{- else if $isRooted -}}
+<enclosure url="{{ $path | absURL }}" length="" type="image/png" />
+  {{- else -}}
+    {{- with resources.GetRemote $path -}}
+<enclosure url="{{ .Permalink }}" length="" type="{{ .MediaType }}" />
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

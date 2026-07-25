@@ -6,6 +6,10 @@ theme = 'hermit-v2'
 enableEmoji = true
 rssLimit = 10
 
+[security]
+  [security.http]
+    urls = ['(?i)^https?://[a-z0-9]', '! ^https?://\d+\.', '! (?i)^https?://[^/?#]*@']
+
 [params]
   description = 'Designer & front-end developer building calm, intentional digital experiences.'
   homeSubtitle = 'Senior Full Stack Developer'

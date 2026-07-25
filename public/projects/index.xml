@@ -10,10 +10,59 @@
 		
 		
 		<item>
-			<title>Elementary Robotics</title>
+			<title>Elementary</title>
 			<link>http://localhost:1313/projects/elementary-robotics/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/elementary-robotics/</guid>
-			<description><![CDATA[Elementary Robotics project]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+			<description><![CDATA[Machine Vision Inspection Platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="/images/elementary-robotics.png" alt="Elementary"></p>
+<p><strong>Role:</strong> Primary Frontend Developer &amp; Full-Stack Contributor</p>
+<p><strong>Product:</strong> Machine Vision Inspection Platform</p>
+<hr>
+<h2 id="system-overview">System Overview<a href="#system-overview" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>A web platform for launching, browsing, and reviewing automated product inspections. The core system utilized machine vision to detect defects on factory production lines. The domain model was structured hierarchically: Organizations contained Products, Products contained Items, and Inspections mapped to a distinct run of Product Items. Hardware cameras published inspection results to a Redis queue for persistent storage and real-time frontend consumption.</p>
+<h2 id="technical-stack">Technical Stack<a href="#technical-stack" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li><strong>Backend:</strong> Django, PostgreSQL</li>
+<li><strong>Data Pipeline:</strong> Redis, WebSockets</li>
+<li><strong>Frontend:</strong> TypeScript/React, highly-optimized client</li>
+</ul>
+<h2 id="key-contributions">Key Contributions<a href="#key-contributions" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<h3 id="high-throughput-frontend-architecture">High-Throughput Frontend Architecture<a href="#high-throughput-frontend-architecture" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Architected and developed the frontend to support the rendering of high-volume live inspection data. Optimized the client to process and display thousands of inspected items per hour without performance degradation.</p>
+<h3 id="real-time-data-pipeline">Real-Time Data Pipeline<a href="#real-time-data-pipeline" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Co-developed the Redis queue integration. Built a dedicated microservice to consume hardware-published camera results from Redis and transmit them to the frontend via WebSockets for live visualization.</p>
+<h3 id="backend--schema-engineering">Backend &amp; Schema Engineering<a href="#backend--schema-engineering" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Modified and extended the PostgreSQL database schema and Django backend. Built API endpoints required to support the frontend data consumption requirements.</p>
+<h3 id="data-state-management">Data State Management<a href="#data-state-management" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Engineered the client data layer to load and seamlessly transition between historical inspection results queried from the PostgreSQL database and live data streamed through WebSockets.</p>
+]]></content>
 		</item>
 		
 		<item>
