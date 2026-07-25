@@ -8,7 +8,9 @@ description: "Engineering principles and standards"
 
 ## Open Brain Institute
 
-I led the architectural redesign of a fragile, tightly coupled Python-to-React UI generation system. Addressing a poorly defined initial implementation, I spearheaded a technical specification that standardized data schemas and instituted strict validation protocols. This intervention decoupled the architecture, substantially reducing frontend engineering time and minimizing emergency hotfixes.
+I led a cross-functional team of frontend and backend engineers to architect and execute a generalized, JSONSchema-based UI generation system. Replacing a fragile, tightly coupled Python-to-React implementation, I spearheaded the technical specification that standardized frontend components and backend integration. This decoupled the architecture, instituted strict validation protocols, substantially reduced frontend engineering time, and minimized emergency hotfixes.
+
+---
 
 ## Blue Brain Project
 
