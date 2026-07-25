@@ -26,6 +26,10 @@ rssLimit = 10
     url = 'https://github.com/g-bar/'
 
   [[params.socialLinks]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/gil-arturo-b-377a47156/'
+
+  [[params.socialLinks]]
     name = 'email'
     url = 'mailto:gbarv2@gmail.com'
 
