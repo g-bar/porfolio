@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
 defaultContentLanguage = 'en'
 locale = 'en-US'
-title = 'Gil Barrios'
+title = 'Alex Rivera'
 theme = 'hermit-v2'
 enableEmoji = true
 rssLimit = 10
-copyright = 'Gil Barrios'
+copyright = 'Alex Rivera'
 
 [params]
   description = 'Designer & front-end developer building calm, intentional digital experiences.'
@@ -16,9 +16,10 @@ copyright = 'Gil Barrios'
   scrollToTop = true
   code_copy_button = true
   justifyContent = false
+  footerHideThemeName = false
 
   [params.author]
-    name = 'Gil Barrios'
+    name = 'Alex Rivera'
     about = 'Designer and front-end developer focused on clean interfaces, smart interaction, and meaningful storytelling.'
 
   [[params.socialLinks]]
