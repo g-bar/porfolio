@@ -1,75 +1,49 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'Alex Rivera | Portfolio'
-theme = 'hugo-profile'
-ignoreLogs = ['warning-goldmark-raw-html']
+defaultContentLanguage = 'en'
+locale = 'en-US'
+title = 'Alex Rivera'
+theme = 'hermit-v2'
+enableEmoji = true
+rssLimit = 10
+copyright = 'Alex Rivera'
 
 [params]
-  description = 'A crisp, minimalist portfolio website built with Hugo.'
+  description = 'Designer & front-end developer building calm, intentional digital experiences.'
+  homeSubtitle = 'I build thoughtful digital experiences.'
+  homeSubtitlePrinter = true
+  footerCopyright = 'Alex Rivera'
+  themeColor = '#494f5c'
+  accentColor = '#018472'
+  scrollToTop = true
+  code_copy_button = true
+  justifyContent = false
 
-  [params.navbar]
-    [params.navbar.menus]
-      disableAbout = false
-      disableExperience = true
-      disableEducation = true
-      disableProjects = false
-      disableContact = false
+  [params.author]
+    name = 'Alex Rivera'
+    about = 'Designer and front-end developer focused on clean interfaces, smart interaction, and meaningful storytelling.'
 
-  [params.hero]
-    enable = true
-    intro = 'Hi, I am'
-    title = 'Alex Rivera.'
-    subtitle = 'I build thoughtful digital experiences.'
-    content = 'I design and build modern, minimal websites that feel calm, intentional, and easy to use.'
-    image = '/images/profile.jpg'
-    [params.hero.button]
-      enable = true
-      name = 'View Projects'
-      url = '#projects'
-      newPage = false
+  [[params.socialLinks]]
+    name = 'github'
+    url = 'https://github.com/'
 
-  [params.about]
-    enable = true
-    title = 'About me'
-    image = '/images/profile.jpg'
-    content = 'I’m a designer and front-end developer focused on clean interfaces, smart interaction, and meaningful storytelling.'
-    [params.about.skills]
-      enable = true
-      title = 'Tools I work with'
-      items = ['Hugo', 'HTML/CSS', 'JavaScript', 'Figma', 'Tailwind']
+  [[params.socialLinks]]
+    name = 'email'
+    url = 'mailto:hello@alexrivera.com'
 
-  [params.projects]
-    enable = true
-    title = 'Selected work'
-    items = [
-      { title = 'North Studio', content = 'A polished editorial experience with a calm visual rhythm.', image = '/images/projects/profile.png', featured = { name = 'Case study', link = '#' }, badges = ['Web Design', 'Hugo'], links = [{ icon = 'fa fa-link', url = '#' }] },
-      { title = 'Helio Finance', content = 'A content-forward marketing site focused on clarity and trust.', image = '/images/projects/profile2.jpg', featured = { name = 'Case study', link = '#' }, badges = ['Brand', 'Frontend'], links = [{ icon = 'fa fa-link', url = '#' }] },
-      { title = 'Atelier Notes', content = 'A minimalist app experience built around focus and flow.', image = '/images/projects/converter.jpg', featured = { name = 'Case study', link = '#' }, badges = ['Product', 'UX'], links = [{ icon = 'fa fa-link', url = '#' }] }
-    ]
-
-  [params.contact]
-    enable = true
-    title = 'Let’s connect'
-    content = 'I’m available for freelance work, thoughtful product collaborations, and polished web experiences.'
-    btnName = 'Email me'
-    btnLink = 'mailto:hello@alexrivera.com'
-
-[[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 1
+[taxonomies]
+  tag = 'tags'
 
 [[menu.main]]
   name = 'Projects'
-  url = '#projects'
-  weight = 2
+  url = 'projects/'
+  weight = 1
 
 [[menu.main]]
   name = 'About'
-  url = '#about'
-  weight = 3
+  url = 'about/'
+  weight = 2
 
 [[menu.main]]
   name = 'Contact'
-  url = '#contact'
-  weight = 4
+  url = 'contact/'
+  weight = 3
