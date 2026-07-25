@@ -17,5 +17,7 @@
     <loc>http://localhost:1313/projects/subcellular-simulation/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/technical-excellence/</loc>
   </url>
 </urlset>
