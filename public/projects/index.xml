@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
-		<title>Projects on Alex Rivera</title>
-		<link>https://example.org/projects/</link>
-		<description>Recent content in Projects on Alex Rivera</description>
+		<title>Projects on Gil Barrios</title>
+		<link>http://localhost:59331/projects/</link>
+		<description>Recent content in Projects on Gil Barrios</description>
 		<generator>Hugo -- 0.164.0</generator>
 		<language>en</language>
-		<copyright>Alex Rivera</copyright>
-		<atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+		<copyright>Gil Barrios</copyright>
+		<atom:link href="http://localhost:59331/projects/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 	</channel>

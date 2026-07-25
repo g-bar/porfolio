@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>http://localhost:59331/about/</loc>
   </url><url>
-    <loc>https://example.org/contact/</loc>
+    <loc>http://localhost:59331/contact/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:59331/</loc>
   </url><url>
-    <loc>https://example.org/projects/</loc>
+    <loc>http://localhost:59331/projects/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:59331/tags/</loc>
   </url>
 </urlset>

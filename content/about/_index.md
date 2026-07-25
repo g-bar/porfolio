@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About Alex Rivera"
+description: "About {{ .Site.Params.author.name }}"
 ---
 
 I'm a multidisciplinary designer and developer who enjoys turning ideas into simple, memorable digital products.

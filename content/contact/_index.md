@@ -1,8 +1,8 @@
 ---
 title: "Contact"
-description: "Get in touch with Alex Rivera"
+description: "Get in touch with {{ .Site.Params.author.name }}"
 ---
 
 Interested in collaborating? I'm available for select freelance and product work.
 
-📧 [hello@alexrivera.com](mailto:hello@alexrivera.com)
+📧 [hello@gilbarrios.com](mailto:hello@gilbarrios.com)
