@@ -2,10 +2,13 @@
 title: "Technical & Architectural Excellence"
 description: "Engineering principles and standards"
 ---
-
- I apply a lean, minimalist mindset to system architecture, actively preventing over-engineering while enforcing rigorous standards and infrastructural integrity. I mitigate technical debt, establish scalable architectures, and institute robust quality assurance protocols to elevate organizational technical maturity and optimize operational costs. I align engineering execution with business objectives to deliver high-value technical propositions and maximize ROI.
+ I enforce rigorous software engineering standards through lean, pragmatic system architecture, actively preventing over-engineering. I systematically mitigate technical debt, build scalable infrastructure, and implement robust quality controls to optimize operational costs. All engineering execution is strictly aligned with business objectives to maximize ROI.
 
 ---
+
+## Open Brain Institute
+
+I led the architectural redesign of a fragile, tightly coupled Python-to-React UI generation system. Addressing a poorly defined initial implementation, I spearheaded a technical specification that standardized data schemas and instituted strict validation protocols. This intervention decoupled the architecture, substantially reducing frontend engineering time and minimizing emergency hotfixes.
 
 ## Blue Brain Project
 
