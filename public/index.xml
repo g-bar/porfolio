@@ -77,6 +77,7 @@
 			<link>http://localhost:1313/projects/subcellular-simulation/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/subcellular-simulation/</guid>
 			<description><![CDATA[System Architecture &amp; Design for a molecular network simulation platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p><strong>Role:</strong> Main Architect &amp; Maintainer</p>
+<p><img src="/images/subcellular-simulation.png" alt="Subcellular Simulation"></p>
 <p>A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks.</p>
 <hr>
 <h2 id="technology-stack">Technology Stack<a href="#technology-stack" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

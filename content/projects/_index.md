@@ -11,6 +11,8 @@ A web platform for launching, browsing, and reviewing automated product inspecti
 
 ## [Subcellular Simulation Web App](/projects/subcellular-simulation/)
 
+![Subcellular Simulation](/images/subcellular-simulation.png)
+
 A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks. Architected on Python and PostgreSQL with a Redis Queue for fault-tolerant async execution, handling up to 10 million data points per simulation. A dynamic PostgreSQL aggregation layer minimizes frontend payload, enabling real-time visualization via a Vue.js interface without performance degradation.
 
 ## [Open Brain Platform](/projects/open-brain-platform/)

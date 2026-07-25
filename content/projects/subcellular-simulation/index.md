@@ -5,6 +5,8 @@ description: "System Architecture & Design for a molecular network simulation pl
 
 **Role:** Main Architect & Maintainer
 
+![Subcellular Simulation](/images/subcellular-simulation.png)
+
 A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks.
 
 ---
