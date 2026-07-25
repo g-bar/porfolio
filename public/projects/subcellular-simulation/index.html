@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
 <meta name="generator" content="Hugo 0.164.0"><meta name="robots" content="index, follow"><meta name="author" content="Gil Barrios">
-<meta name="description" content="Subcellular Simulation Web App project">
+<meta name="description" content="System Architecture &amp; Design for a molecular network simulation platform">
 <meta name="apple-mobile-web-app-title" content="Subcellular Simulation Web App">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -17,17 +17,18 @@
 
 
 	<meta itemprop="name" content="Subcellular Simulation Web App">
-	<meta itemprop="description" content="Subcellular Simulation Web App project"><meta property="og:url" content="http://localhost:1313/projects/subcellular-simulation/">
+	<meta itemprop="description" content="System Architecture &amp; Design for a molecular network simulation platform">
+	<meta itemprop="wordCount" content="191"><meta property="og:url" content="http://localhost:1313/projects/subcellular-simulation/">
 	<meta property="og:site_name" content="Gil Barrios">
 	<meta property="og:title" content="Subcellular Simulation Web App">
-	<meta property="og:description" content="Subcellular Simulation Web App project">
+	<meta property="og:description" content="System Architecture &amp; Design for a molecular network simulation platform">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="projects">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Subcellular Simulation Web App">
-	<meta name="twitter:description" content="Subcellular Simulation Web App project">
+	<meta name="twitter:description" content="System Architecture &amp; Design for a molecular network simulation platform">
 
 
 <script type="application/ld+json">
@@ -36,10 +37,10 @@
     "@type": "BlogPosting",
     "headline": "Subcellular Simulation Web App",
     "name": "Subcellular Simulation Web App",
-    "description": "Subcellular Simulation Web App project",
+    "description": "System Architecture \u0026 Design for a molecular network simulation platform",
     "keywords": [],
-    "articleBody": "",
-    "wordCount" : "0",
+    "articleBody": "Role: Main Architect \u0026 Maintainer\nA web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks.\nTechnology Stack Frontend: Vue.js Backend: Python Database: PostgreSQL (migrated from MongoDB) Task Queue: Redis Queue (migrated from custom implementation) System Architecture \u0026 Core Components Asynchronous Simulation Engine Users define custom molecular models via the Vue.js interface. Simulation execution is decoupled from the main application thread using a distributed job queue. The queue architecture was migrated from a custom implementation to Redis Queue to guarantee fault tolerance and handle concurrent, resource-intensive execution efficiently.\nHigh-Volume Data Pipeline Each simulation yields up to 10 million discrete data points. Data layer migrated from MongoDB to PostgreSQL to leverage advanced querying, transactional integrity, and native data aggregation functions.\nDynamic Aggregation Layer Designed a PostgreSQL-based aggregation system to compute statistical summaries (min, max, averages). Aggregations operate at dynamic data scales (e.g., 100, 1,000, 10,000 points). This layer minimizes network payload and browser memory consumption, allowing the frontend to render massive datasets without degradation.\nReal-Time Visualization Interface Vue.js UI consumes the pre-aggregated data streams. Enables low-latency, real-time visualization of ongoing simulations while maintaining high overall system throughput.\n",
+    "wordCount" : "191",
     "inLanguage": "en",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
@@ -106,7 +107,51 @@
 	<main class="site-main section-inner thin animated fadeIn faster">
 		<h1>Subcellular Simulation Web App</h1>
 		<div class="content">
-			
+			<p><strong>Role:</strong> Main Architect &amp; Maintainer</p>
+<p>A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks.</p>
+<hr>
+<h2 id="technology-stack">Technology Stack<a href="#technology-stack" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li><strong>Frontend:</strong> Vue.js</li>
+<li><strong>Backend:</strong> Python</li>
+<li><strong>Database:</strong> PostgreSQL (migrated from MongoDB)</li>
+<li><strong>Task Queue:</strong> Redis Queue (migrated from custom implementation)</li>
+</ul>
+<hr>
+<h2 id="system-architecture--core-components">System Architecture &amp; Core Components<a href="#system-architecture--core-components" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<h3 id="asynchronous-simulation-engine">Asynchronous Simulation Engine<a href="#asynchronous-simulation-engine" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Users define custom molecular models via the Vue.js interface. Simulation execution is decoupled from the main application thread using a distributed job queue. The queue architecture was migrated from a custom implementation to Redis Queue to guarantee fault tolerance and handle concurrent, resource-intensive execution efficiently.</p>
+<h3 id="high-volume-data-pipeline">High-Volume Data Pipeline<a href="#high-volume-data-pipeline" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Each simulation yields up to 10 million discrete data points. Data layer migrated from MongoDB to PostgreSQL to leverage advanced querying, transactional integrity, and native data aggregation functions.</p>
+<h3 id="dynamic-aggregation-layer">Dynamic Aggregation Layer<a href="#dynamic-aggregation-layer" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Designed a PostgreSQL-based aggregation system to compute statistical summaries (min, max, averages). Aggregations operate at dynamic data scales (e.g., 100, 1,000, 10,000 points). This layer minimizes network payload and browser memory consumption, allowing the frontend to render massive datasets without degradation.</p>
+<h3 id="real-time-visualization-interface">Real-Time Visualization Interface<a href="#real-time-visualization-interface" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Vue.js UI consumes the pre-aggregated data streams. Enables low-latency, real-time visualization of ongoing simulations while maintaining high overall system throughput.</p>
+
 		</div>
 		
 	</main>
