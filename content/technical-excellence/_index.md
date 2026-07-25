@@ -10,6 +10,8 @@ description: "Engineering principles and standards"
 
 I led a cross-functional team of frontend and backend engineers to architect and execute a generalized, JSONSchema-based UI generation system. Replacing a fragile, tightly coupled Python-to-React implementation, I spearheaded the technical specification that standardized frontend components and backend integration. This decoupled the architecture, instituted strict validation protocols, substantially reduced frontend engineering time, and minimized emergency hotfixes.
 
+Additionally, I directed the technical specification and frontend execution of an AI-to-UI communication interface. Collaborating with the machine learning team, I engineered a system enabling an AI chat agent to dynamically populate forms and configure system parameters based on user interaction.
+
 ---
 
 ## Blue Brain Project
