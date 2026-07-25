@@ -12,7 +12,7 @@ rssLimit = 10
 
 [params]
   description = 'Designer & front-end developer building calm, intentional digital experiences.'
-  homeSubtitle = 'Senior Full Stack Developer'
+  homeSubtitle = 'Senior Full-stack Developer'
   homeSubtitlePrinter = true
   themeColor = '#494f5c'
   accentColor = '#018472'
@@ -40,13 +40,13 @@ rssLimit = 10
   tag = 'tags'
 
 [[menu.main]]
-  name = 'Projects'
-  url = 'projects/'
+  name = 'Technical & Architectural Excellence'
+  url = 'technical-excellence/'
   weight = 1
 
 [[menu.main]]
-  name = 'Technical & Architectural Excellence'
-  url = 'technical-excellence/'
+  name = 'Projects'
+  url = 'projects/'
   weight = 2
 
 [[menu.main]]
