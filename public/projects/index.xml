@@ -69,7 +69,10 @@
 			<title>Open Brain Platform</title>
 			<link>http://localhost:1313/projects/open-brain-platform/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/open-brain-platform/</guid>
-			<description><![CDATA[Web-based environment for the simulation of neuronal circuits]]></description><content type="text/html" mode="escaped"><![CDATA[<p>A web-based environment for the simulation of neuronal circuits. The system utilizes gated workspaces, organized as virtual labs and projects, to control access to specific workflows and datasets, including morphologies, electrical models, and neuronal circuits. An integrated AI agent allows users to query data and automate the configuration and execution of simulations.</p>
+			<description><![CDATA[Web-based environment for the simulation of neuronal circuits]]></description><content type="text/html" mode="escaped"><![CDATA[<p><strong>Role:</strong> Full Stack Developer</p>
+<p><strong>Scope:</strong> Architected and implemented features across the entire technology stack in collaboration with a development team.</p>
+<hr>
+<p>A web-based environment for the simulation of neuronal circuits. The system utilizes gated workspaces, organized as virtual labs and projects, to control access to specific workflows and datasets, including morphologies, electrical models, and neuronal circuits. An integrated AI agent allows users to query data and automate the configuration and execution of simulations.</p>
 <hr>
 <h2 id="platform-architecture">Platform Architecture<a href="#platform-architecture" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
