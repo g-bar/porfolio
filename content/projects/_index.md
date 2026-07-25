@@ -16,3 +16,5 @@ A web platform for launching, browsing, and reviewing automated product inspecti
 A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks. Architected on Python and PostgreSQL with a Redis Queue for fault-tolerant async execution, handling up to 10 million data points per simulation. A dynamic PostgreSQL aggregation layer minimizes frontend payload, enabling real-time visualization via a Vue.js interface without performance degradation.
 
 ## [Open Brain Platform](/projects/open-brain-platform/)
+
+A web-based environment for the simulation of neuronal circuits. The system utilizes gated workspaces, organized as virtual labs and projects, to control access to specific workflows and datasets, including morphologies, electrical models, and neuronal circuits. An integrated AI agent allows users to query data and automate the configuration and execution of simulations.

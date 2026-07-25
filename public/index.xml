@@ -69,7 +69,43 @@
 			<title>Open Brain Platform</title>
 			<link>http://localhost:1313/projects/open-brain-platform/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/open-brain-platform/</guid>
-			<description><![CDATA[Open Brain Platform project]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+			<description><![CDATA[Web-based environment for the simulation of neuronal circuits]]></description><content type="text/html" mode="escaped"><![CDATA[<p>A web-based environment for the simulation of neuronal circuits. The system utilizes gated workspaces, organized as virtual labs and projects, to control access to specific workflows and datasets, including morphologies, electrical models, and neuronal circuits. An integrated AI agent allows users to query data and automate the configuration and execution of simulations.</p>
+<hr>
+<h2 id="platform-architecture">Platform Architecture<a href="#platform-architecture" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>The platform is composed of four primary systems:</p>
+<h3 id="core-web-app">Core Web App<a href="#core-web-app" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The primary frontend user interface.</p>
+<p><strong>Stack:</strong> Next.js, React, TypeScript</p>
+<h3 id="entitycore">EntityCore<a href="#entitycore" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The central data repository providing models and API access to the core datasets.</p>
+<p><strong>Stack:</strong> Python, PostgreSQL</p>
+<h3 id="obi-one">Obi-One<a href="#obi-one" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The job orchestration service for executing scientific simulation code.</p>
+<p><strong>Stack:</strong> Python (FastAPI), Pydantic</p>
+<h3 id="virtual-lab-api">Virtual Lab API<a href="#virtual-lab-api" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The access control and data management API for workspaces and projects.</p>
+<p><strong>Stack:</strong> Python, PostgreSQL</p>
+]]></content>
 		</item>
 		
 		<item>
