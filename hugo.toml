@@ -5,12 +5,14 @@ title = 'Gil Barrios'
 theme = 'hermit-v2'
 enableEmoji = true
 rssLimit = 10
+enableRobotsTXT = true
 
 [security]
   [security.http]
     urls = ['(?i)^https?://[a-z0-9]', '! ^https?://\d+\.', '! (?i)^https?://[^/?#]*@']
 
 [params]
+  siteNoIndex = true
   description = 'Designer & front-end developer building calm, intentional digital experiences.'
   homeSubtitle = 'Senior Full-stack Developer'
   homeSubtitlePrinter = true

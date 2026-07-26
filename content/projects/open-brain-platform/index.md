@@ -51,10 +51,6 @@ The access control and data management API for workspaces and projects.
 
 Engineered a system to automatically generate frontend UIs from backend Pydantic schemas, accelerating workflow implementation and reducing bug incidence.
 
-### [AI-to-UI Communication Interface](../ai-to-ui-interface/)
-
-Directed the technical specification and frontend execution enabling the AI chat agent to dynamically populate forms and configure system parameters.
-
 ### [Education Platform](../education-platform/)
 
 Designed and engineered end to end a course management module supporting Jupyter notebook distribution, automated workspace initialization, and institutional capacity control.
