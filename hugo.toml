@@ -47,8 +47,8 @@ enableRobotsTXT = true
       unsafe = true
 
 [[menu.main]]
-  name = 'Technical & Architectural Excellence'
-  url = '/technical-excellence/'
+  name = 'Engineering Principles'
+  url = '/engineering-principles/'
   weight = 1
 
 [[menu.main]]

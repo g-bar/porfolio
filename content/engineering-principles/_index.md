@@ -1,6 +1,6 @@
 ---
-title: "Technical & Architectural Excellence"
-description: "Engineering principles, architecture practices, and technical leadership"
+title: "Engineering Principles"
+description: "My approach to building reliable, maintainable, and scalable software systems."
 ---
 
 Impact-driven and pragmatic software engineer with experience designing and building systems across the full stack. I focus on delivering value through simple, maintainable solutions—minimising unnecessary complexity, avoiding premature optimisation, and making architectural decisions that balance scalability, reliability, and business needs.
