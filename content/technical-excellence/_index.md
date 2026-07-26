@@ -1,23 +1,38 @@
 ---
 title: "Technical & Architectural Excellence"
-description: "Engineering principles and standards"
+description: "Engineering principles, architecture practices, and technical leadership"
 ---
- I enforce rigorous software engineering standards through lean, pragmatic system architecture, actively preventing over-engineering. I systematically mitigate technical debt, build scalable infrastructure, and implement robust quality controls to optimize operational costs. All engineering execution is strictly aligned with business objectives to maximize ROI.
+
+Impact-driven and pragmatic software engineer with experience designing and building systems across the full stack. I focus on delivering value through simple, maintainable solutions—minimising unnecessary complexity, avoiding premature optimisation, and making architectural decisions that balance scalability, reliability, and business needs.
+
+I believe in using proven engineering practices over chasing trends, and in building systems that are robust today while remaining adaptable for the future.
 
 ---
 
 ## Open Brain Institute
 
-I led a cross-functional team of frontend and backend engineers to architect and execute a generalized, JSONSchema-based UI generation system. Replacing a fragile, tightly coupled Python-to-React implementation, I spearheaded the technical specification that standardized frontend components and backend integration. This decoupled the architecture, instituted strict validation protocols, substantially reduced frontend engineering time, and minimized emergency hotfixes.
+I led a cross-functional team of frontend and backend engineers in designing and implementing a generalized, JSON Schema-based UI generation system.
+
+The existing platform had multiple workflows, each with its own schema definitions and frontend implementations. Over time, this created inconsistencies in how similar concepts were represented and increased the effort required to introduce new features or maintain existing flows.
+
+I defined the technical architecture for a standardized schema-driven approach, creating common validation rules and reusable frontend components while maintaining flexibility across different workflows. The system established a shared contract between backend definitions and frontend rendering, reducing duplication and making new UI capabilities faster and more predictable to implement.
+
+This improved consistency across the platform, reduced frontend engineering effort, and minimized issues caused by workflow-specific implementations.
 
 ---
 
 ## Blue Brain Project
 
-I catalyzed the transition of internal scientific tools into a public-facing platform by advising technical leadership on architectural modernization. I championed stringent engineering standards through the adoption of CI/CD, automated testing, and proactive monitoring. I secured the implementation of full-stack type safety across frontend (TypeScript) and backend (Python) codebases. I was instrumental to the strategy for a schema-first database architecture, initiating a migration from MongoDB and an adhoc graph database to PostgreSQL to guarantee data integrity and reduce infrastructure maintenance costs.
+I contributed to the evolution of internal scientific tooling into a public-facing platform by helping modernize the underlying engineering architecture and development practices.
+
+I introduced stronger engineering standards through CI/CD adoption, automated testing, and proactive monitoring. I also helped establish full-stack type safety across the frontend (TypeScript) and backend (Python) codebases to improve reliability and developer productivity.
+
+On the data architecture side, I contributed to the strategy for moving from MongoDB and an ad-hoc graph database approach toward a schema-first PostgreSQL architecture. This improved data integrity, simplified the technology stack, and reduced long-term infrastructure maintenance costs.
 
 ---
 
 ## Elementary
 
-I was promoted from entry-level frontend engineer to Full-Stack Team Lead within 18 months. I expanded my technical scope from frontend-exclusive development to full-stack implementation and architecture.
+I joined Elementary as an entry-level frontend engineer and was promoted to Full-Stack Team Lead within 18 months.
+
+During this time, I expanded my role beyond frontend development into backend engineering, system architecture, and technical leadership. I contributed to building features across the stack while helping guide technical decisions and engineering practices within the team.
