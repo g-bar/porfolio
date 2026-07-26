@@ -18,3 +18,15 @@ A web application enabling scientists to define mathematical models and execute 
 ## [Open Brain Platform](open-brain-platform/)
 
 A web-based environment for the simulation of neuronal circuits. The system utilizes gated workspaces, organized as virtual labs and projects, to control access to specific workflows and datasets, including morphologies, electrical models, and neuronal circuits. An integrated AI agent allows users to query data and automate the configuration and execution of simulations.
+
+## [Automated Python-to-UI Framework](python-to-ui-framework/)
+
+Engineered a system to automatically generate frontend UIs from backend Pydantic schemas, accelerating workflow implementation and reducing bug incidence. Part of the Open Brain Platform.
+
+## [AI-to-UI Communication Interface](ai-to-ui-interface/)
+
+Directed the technical specification and frontend execution enabling the AI chat agent to dynamically populate forms and configure system parameters. Part of the Open Brain Platform.
+
+## [Education Platform](education-platform/)
+
+Designed and engineered end to end a course management module supporting Jupyter notebook distribution, automated workspace initialization, and institutional capacity control. Part of the Open Brain Platform.
