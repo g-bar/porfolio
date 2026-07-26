@@ -35,4 +35,4 @@ On the data architecture side, I contributed to the strategy for moving from Mon
 
 I joined Elementary as an entry-level frontend engineer and was promoted to Full-Stack Team Lead within 18 months.
 
-During this time, I expanded my role beyond frontend development into backend engineering, system architecture, and technical leadership. I contributed to building features across the stack while helping guide technical decisions and engineering practices within the team.
+During this time, I expanded my role beyond frontend development into backend engineering, system architecture, and technical leadership.
