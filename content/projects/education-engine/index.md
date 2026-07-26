@@ -6,7 +6,7 @@
 
 **Tech Stack:** Python, PostgreSQL, React, TypeScript, Redis
 
-**Scope:** Architecture, Backend Systems, Database Design, Frontend Implementation
+**Scope:** Architecture, Backend Systems, Database Design, Frontend
 
 ---
 
