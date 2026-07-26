@@ -3,7 +3,7 @@ title: "Elementary"
 description: "Machine Vision Inspection Platform"
 ---
 
-![Elementary](/images/elementary-robotics.png)
+![Elementary](../../../images/elementary-robotics.png)
 
 **Role:** Primary Frontend Developer & Full-Stack Contributor
 

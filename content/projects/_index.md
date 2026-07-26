@@ -5,13 +5,13 @@ description: "A snapshot of recent work"
 
 ## [Elementary](elementary-robotics/)
 
-![Elementary](/images/elementary-robotics.png)
+![Elementary](../../images/elementary-robotics.png)
 
 A web platform for launching, browsing, and reviewing automated product inspections using machine vision to detect defects on factory production lines. Architected a high-throughput TypeScript/React frontend capable of processing thousands of inspected items per hour, backed by a real-time Redis/WebSocket data pipeline. Built on Django and PostgreSQL with custom API endpoints and a seamless data layer bridging historical and live inspection results.
 
 ## [Subcellular Simulation Web App](subcellular-simulation/)
 
-![Subcellular Simulation](/images/subcellular-simulation.png)
+![Subcellular Simulation](../../images/subcellular-simulation.png)
 
 A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks. Architected on Python and PostgreSQL with a Redis Queue for fault-tolerant async execution, handling up to 10 million data points per simulation. A dynamic PostgreSQL aggregation layer minimizes frontend payload, enabling real-time visualization via a Vue.js interface without performance degradation.
 
