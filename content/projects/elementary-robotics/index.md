@@ -3,7 +3,7 @@ title: "Elementary"
 description: "Machine Vision Inspection Platform"
 ---
 
-![Elementary](../../../images/elementary-robotics.png)
+{{< img src="images/elementary-robotics.png" alt="Elementary" >}}
 
 **Role:** Primary Frontend Developer & Full-Stack Contributor
 

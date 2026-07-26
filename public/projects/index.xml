@@ -13,7 +13,8 @@
 			<title>Elementary</title>
 			<link>https://g-bar.github.io/porfolio/projects/elementary-robotics/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>https://g-bar.github.io/porfolio/projects/elementary-robotics/</guid>
-			<description><![CDATA[Machine Vision Inspection Platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="../../../images/elementary-robotics.png" alt="Elementary"></p>
+			<description><![CDATA[Machine Vision Inspection Platform]]></description><content type="text/html" mode="escaped"><![CDATA[<img src="https://g-bar.github.io/porfolio/images/elementary-robotics.png" alt="Elementary">
+
 <p><strong>Role:</strong> Primary Frontend Developer &amp; Full-Stack Contributor</p>
 <p><strong>Product:</strong> Machine Vision Inspection Platform</p>
 <hr>
@@ -153,7 +154,8 @@
 			<link>https://g-bar.github.io/porfolio/projects/subcellular-simulation/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>https://g-bar.github.io/porfolio/projects/subcellular-simulation/</guid>
 			<description><![CDATA[System Architecture &amp; Design for a molecular network simulation platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Repository: <a href="https://github.com/BlueBrain/BlueNaaS-Subcellular" target="_blank"><img src="https://img.shields.io/badge/GitHub-BlueBrain/BlueNaaS--Subcellular-181717?logo=github" style="display:inline;vertical-align:middle;height:16px;"></a> — <small><em>no longer maintained</em></small></p>
-<p><img src="../../../images/subcellular-simulation.png" alt="Subcellular Simulation"></p>
+<img src="https://g-bar.github.io/porfolio/images/subcellular-simulation.png" alt="Subcellular Simulation">
+
 <p><strong>Role:</strong> Main Architect &amp; Maintainer</p>
 <p>A web application enabling scientists to define mathematical models and execute high-throughput simulations of molecular networks.</p>
 <hr>
