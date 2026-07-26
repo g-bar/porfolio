@@ -15,9 +15,10 @@ For more on my engineering philosophy, see [Engineering Principles](/engineering
 
 **Core Technologies**
 
-* Python / Django
-* TypeScript / React
+* Python / Django 
+* TypeScript / React 
 * PostgreSQL
+* Diverse python web frameworks
 
 **Backend & Infrastructure**
 
