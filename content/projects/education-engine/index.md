@@ -12,7 +12,7 @@
 
 ## Overview
 
-Open Brain is a collaborative AI platform where users work inside isolated virtual lab environments. Each workspace is backed by a **Project**, which acts as the platform's security boundary and contains datasets, Jupyter notebooks, workflows, experiment results, and other project assets.
+Open Brain is a collaborative platform where users work inside isolated virtual lab environments. Each workspace is backed by a **Project**, which acts as the platform's security boundary and contains datasets, Jupyter notebooks, workflows, experiment results, and other project assets.
 
 Projects are protected by an ACL system with two primary roles:
 
