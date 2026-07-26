@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Contact on Gil Barrios</title>
-		<link>https://g-bar.github.io/contact/</link>
+		<link>https://g-bar.github.io/porfolio/contact/</link>
 		<description>Recent content in Contact on Gil Barrios</description>
 		<generator>Hugo -- 0.164.0</generator>
 		<language>en</language>
-		<atom:link href="https://g-bar.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://g-bar.github.io/porfolio/contact/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 	</channel>
