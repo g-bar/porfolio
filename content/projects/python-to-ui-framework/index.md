@@ -8,7 +8,7 @@ description: "Dynamic UI generation architecture for workflow configuration page
 
 **Project:** [Open Brain Platform](../open-brain-platform/)
 
-**Technologies:** Python, FastAPI, Pydantic, TypeScript, JSON Schema, CI/CD
+**Technologies:** Python, FastAPI, Pydantic, React, TypeScript, JSON Schema, CI/CD
 
 ---
 
@@ -24,7 +24,7 @@ Proposed and led the redesign of the dynamic UI generation pipeline after aligni
 
 ### Schema Specification
 
-Designed a JSON schema specification that mapped backend models to a standardized library of TypeScript UI components. The specification clearly defined component behavior, validation rules, and interaction patterns, giving both frontend and backend teams a common contract to build against.
+Designed a JSON schema specification that mapped backend models to a standardized library of React UI components. The specification clearly defined component behavior, validation rules, and interaction patterns, giving both frontend and backend teams a common contract to build against.
 
 ### Backend Foundation
 
