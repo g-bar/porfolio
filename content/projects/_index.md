@@ -23,6 +23,6 @@ A web-based environment for the simulation of neuronal circuits. The system util
 
 Led the standardization of a dynamic UI pipeline directing a cross-functional team of 4 engineers, decoupling UI logic from workflow parameters and achieving organization-wide adoption. Part of the Open Brain Platform.
 
-## [Education Platform](education-platform/)
+## [Open Brain Platform Education Engine](education-platform/)
 
-Designed and engineered end to end a course management module supporting Jupyter notebook distribution, automated workspace initialization, and institutional capacity control. Part of the Open Brain Platform.
+Designed and built an automated enterprise monetization, entitlement, and environment provisioning system for institutional clients, including concurrency-safe seat allocation, time-gated access control, and distributed background tasks. Part of the Open Brain Platform.
