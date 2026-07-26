@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Home on Gil Barrios</title>
-		<link>http://localhost:1313/</link>
+		<link>https://g-bar.github.io/</link>
 		<description>Recent content in Home on Gil Barrios</description>
 		<generator>Hugo -- 0.164.0</generator>
 		<language>en</language>
-		<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://g-bar.github.io/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Elementary</title>
-			<link>http://localhost:1313/projects/elementary-robotics/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/elementary-robotics/</guid>
+			<link>https://g-bar.github.io/projects/elementary-robotics/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>https://g-bar.github.io/projects/elementary-robotics/</guid>
 			<description><![CDATA[Machine Vision Inspection Platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="/images/elementary-robotics.png" alt="Elementary"></p>
 <p><strong>Role:</strong> Primary Frontend Developer &amp; Full-Stack Contributor</p>
 <p><strong>Product:</strong> Machine Vision Inspection Platform</p>
@@ -67,8 +67,8 @@
 		
 		<item>
 			<title>Open Brain Platform</title>
-			<link>http://localhost:1313/projects/open-brain-platform/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/open-brain-platform/</guid>
+			<link>https://g-bar.github.io/projects/open-brain-platform/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>https://g-bar.github.io/projects/open-brain-platform/</guid>
 			<description><![CDATA[Web-based environment for the simulation of neuronal circuits]]></description><content type="text/html" mode="escaped"><![CDATA[<p><strong>Role:</strong> Full Stack Developer</p>
 <p><strong>Scope:</strong> Architected and implemented features across the entire technology stack in collaboration with a development team.</p>
 <hr>
@@ -150,8 +150,8 @@
 		
 		<item>
 			<title>Subcellular Simulation Web App</title>
-			<link>http://localhost:1313/projects/subcellular-simulation/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>http://localhost:1313/projects/subcellular-simulation/</guid>
+			<link>https://g-bar.github.io/projects/subcellular-simulation/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Gil Barrios</author><guid>https://g-bar.github.io/projects/subcellular-simulation/</guid>
 			<description><![CDATA[System Architecture &amp; Design for a molecular network simulation platform]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Repository: <a href="https://github.com/BlueBrain/BlueNaaS-Subcellular" target="_blank"><img src="https://img.shields.io/badge/GitHub-BlueBrain/BlueNaaS--Subcellular-181717?logo=github" style="display:inline;vertical-align:middle;height:16px;"></a> — <small><em>no longer maintained</em></small></p>
 <p><img src="/images/subcellular-simulation.png" alt="Subcellular Simulation"></p>
 <p><strong>Role:</strong> Main Architect &amp; Maintainer</p>

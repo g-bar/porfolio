@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://g-bar.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://g-bar.github.io/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/elementary-robotics/</loc>
+    <loc>https://g-bar.github.io/projects/elementary-robotics/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://g-bar.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/open-brain-platform/</loc>
+    <loc>https://g-bar.github.io/projects/open-brain-platform/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://g-bar.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/subcellular-simulation/</loc>
+    <loc>https://g-bar.github.io/projects/subcellular-simulation/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://g-bar.github.io/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/technical-excellence/</loc>
+    <loc>https://g-bar.github.io/technical-excellence/</loc>
   </url>
 </urlset>
