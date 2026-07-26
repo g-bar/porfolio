@@ -9,7 +9,7 @@ My approach is guided by a few core principles: lean solutions over unnecessary 
 
 I enjoy solving complex technical problems, but I believe the best engineering outcomes come from understanding when to introduce complexity and when to keep things simple. My goal is to build systems that are reliable, maintainable, and able to evolve with changing requirements.
 
-For more on my engineering philosophy, see [Engineering Principles](../engineering-principles/).
+For more on my engineering philosophy, see [Engineering Principles]({{< ref "/engineering-principles/" >}}).
 
 ## Technical Skills
 
