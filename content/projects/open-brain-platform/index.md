@@ -47,9 +47,9 @@ The access control and data management API for workspaces and projects.
 
 ## Key Contributions
 
-### [Automated Python-to-UI Framework](../python-to-ui-framework/)
+### [Dynamic UI Generation Framework](../python-to-ui-framework/)
 
-Engineered a system to automatically generate frontend UIs from backend Pydantic schemas, accelerating workflow implementation and reducing bug incidence.
+Led the standardization of a dynamic UI pipeline directing a cross-functional team of 4 engineers, decoupling UI logic from workflow parameters and achieving organization-wide adoption.
 
 ### [Education Platform](../education-platform/)
 
