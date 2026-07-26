@@ -3,12 +3,44 @@ title: "About"
 description: "About {{ .Site.Params.author.name }}"
 ---
 
-Highly impactful and pragmatic software engineer experienced across the stack, primarily with Python/Django, TypeScript/React, and PostgreSQL. I prioritise delivering value by minimising complexity, avoiding premature optimisation and abstraction, and maintaining system performance and reliability. I emphasise proven, battle-tested solutions over following fleeting trends.
+I am a pragmatic software engineer experienced across the full stack, focused on delivering value through thoughtful engineering decisions.
 
-**Key Strengths:**
+My approach is guided by a few core principles: lean solutions over unnecessary complexity, pragmatism over trends, business value over technically interesting solutions, simplicity over premature abstraction, and proven approaches over novelty.
 
-- Main expertise in Python/Django, TypeScript/React, and PostgreSQL.
-- Experience with various other backend and frontend frameworks.
-- Hands-on with GraphQL, Redis, MongoDB, Docker, Git, Kubernetes, and OpenShift.
-- Solid foundation in C programming, algorithms, and data structures.
-- Knowledgeable in deep learning models (CNNs, RNNs) and data analysis using NumPy, SciPy, Keras, PyTorch, TensorFlow, and Pandas.
+I enjoy solving complex technical problems, but I believe the best engineering outcomes come from understanding when to introduce complexity and when to keep things simple. My goal is to build systems that are reliable, maintainable, and able to evolve with changing requirements.
+
+For more on my engineering philosophy, see [Engineering Principles](/engineering-principles/).
+
+## Technical Skills
+
+**Core Technologies**
+
+* Python / Django
+* TypeScript / React
+* PostgreSQL
+
+**Backend & Infrastructure**
+
+* GraphQL
+* Redis
+* MongoDB
+* Docker
+* Kubernetes
+* OpenShift
+* AWS
+* Azure
+
+**Data & Machine Learning**
+
+* NumPy
+* SciPy
+* Pandas
+* Keras
+* PyTorch
+* TensorFlow
+
+**Foundations**
+
+* C programming
+* Algorithms and data structures
+* Software design principles
