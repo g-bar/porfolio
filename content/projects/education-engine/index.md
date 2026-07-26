@@ -2,6 +2,8 @@
 
 **Role:** Lead Architect & Full Stack Engineer
 
+**Project:** [Open Brain Platform](../open-brain-platform/)
+
 **Tech Stack:** Python, PostgreSQL, React, TypeScript, Redis
 
 **Scope:** Architecture, Backend Systems, Database Design, Frontend Implementation
