@@ -35,13 +35,16 @@ jobs:
       - name: Build
         run: hugo --minify --baseURL "https://g-bar.github.io/porfolio/"
 
+      - name: Move into subpath folder
+        run: mkdir -p porfolio && cp -r public/* porfolio/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'
+          path: './porfolio'
 
       - name: Deploy to GitHub Pages
         id: deployment
