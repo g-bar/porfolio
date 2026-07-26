@@ -51,6 +51,6 @@ The access control and data management API for workspaces and projects.
 
 Led the standardization of a dynamic UI pipeline directing a cross-functional team of 4 engineers, decoupling UI logic from workflow parameters and achieving organization-wide adoption.
 
-### [Open Brain Platform Education Engine](../education-platform/)
+### [Open Brain Platform Education Engine](../education-engine/)
 
 Designed and built an automated enterprise monetization, entitlement, and environment provisioning system for institutional clients, including concurrency-safe seat allocation, time-gated access control, and distributed background tasks.
