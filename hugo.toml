@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://g-bar.github.io/porfolio/'
 defaultContentLanguage = 'en'
 locale = 'en-US'
 title = 'Gil Barrios'
@@ -46,20 +46,20 @@ rssLimit = 10
 
 [[menu.main]]
   name = 'Technical & Architectural Excellence'
-  url = 'technical-excellence/'
+  url = '/technical-excellence/'
   weight = 1
 
 [[menu.main]]
   name = 'Projects'
-  url = 'projects/'
+  url = '/projects/'
   weight = 2
 
 [[menu.main]]
   name = 'About'
-  url = 'about/'
+  url = '/about/'
   weight = 3
 
 [[menu.main]]
   name = 'Contact'
-  url = 'contact/'
+  url = '/contact/'
   weight = 4
