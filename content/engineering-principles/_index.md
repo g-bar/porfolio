@@ -7,17 +7,19 @@ Impact-driven and pragmatic software engineer with experience designing and buil
 
 I believe in using proven engineering practices over chasing trends, and in building systems that are robust today while remaining adaptable for the future.
 
+hese principles have enabled me to deliver consistent, high-impact value across the organizations I've served. Here are a few key examples:
+
 ---
 
 ## Open Brain Institute
 
 I led a cross-functional team of frontend and backend engineers in designing and implementing a generalized, JSON Schema-based UI generation system.
 
-The existing platform had multiple workflows, each with its own schema definitions and frontend implementations. Over time, this created inconsistencies in how similar concepts were represented and increased the effort required to introduce new features or maintain existing flows.
+The existing platform had multiple workflows, each with its own schema definitions and frontend implementations. Over time, this created inconsistencies in how similar concepts were represented and increased the effort required to introduce new features or maintain existing flows. The initial approach was also fragile and had a high incidence of bugs that required hot-fixing.
 
 I defined the technical architecture for a standardized schema-driven approach, creating common validation rules and reusable frontend components while maintaining flexibility across different workflows. The system established a shared contract between backend definitions and frontend rendering, reducing duplication and making new UI capabilities faster and more predictable to implement.
 
-This improved consistency across the platform, reduced frontend engineering effort, and minimized issues caused by workflow-specific implementations.
+This improved consistency across the platform, reduced frontend engineering effort, and minimized bugs that needed hot-fixing.
 
 ---
 
@@ -33,6 +35,6 @@ On the data architecture side, I contributed to the strategy for moving from Mon
 
 ## Elementary
 
-I joined Elementary as an entry-level frontend engineer and was promoted to Full-Stack Team Lead within 18 months.
+I joined Elementary as an entry-level frontend engineer and was promoted to Full-Stack Team Lead within 15 months.
 
 During this time, I expanded my role beyond frontend development into backend engineering, system architecture, and technical leadership.
