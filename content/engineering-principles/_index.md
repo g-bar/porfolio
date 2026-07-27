@@ -7,7 +7,7 @@ Impact-driven and pragmatic software engineer with experience designing and buil
 
 I believe in using proven engineering practices over chasing trends, and in building systems that are robust today while remaining adaptable for the future.
 
-hese principles have enabled me to deliver consistent, high-impact value across the organizations I've served. Here are a few key examples:
+These principles have enabled me to deliver consistent, high-impact value across the organizations I've served. Here are a few key examples:
 
 ---
 
